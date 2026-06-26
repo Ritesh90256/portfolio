@@ -847,7 +847,7 @@
     <span class="line2">MINCHINAL</span>
   </h1>
   <p class="hero-sub">
-    Building <strong>intelligent agents</strong>, fine-tuning large language models, and pushing the frontier of <strong>agentic AI</strong> - one neural network at a time.
+    Building <strong>intelligent agents</strong> and the <strong>observability tools</strong> that keep them honest — currently engineering Vigil, an open-source platform that automatically diagnoses why AI agents fail in production.
   </p>
   <div class="hero-cta">
     <a href="#projects" class="btn-primary">View Projects</a>
@@ -929,6 +929,8 @@
       <div class="skill-tags">
         <span class="tag">AWS</span>
         <span class="tag">Docker</span>
+        <span class="tag">FastAPI</span>
+        <span class="tag">PostgreSQL</span>
         <span class="tag">Git</span>
         <span class="tag">Google Colab</span>
         <span class="tag">Jupyter</span>
@@ -977,42 +979,57 @@
         <div class="orbit-center"></div>
       </div>
       <div style="flex:1">
-        <span class="featured-badge">⭐ Featured</span>
-        <div class="project-name">Astronaut Fatigue & Sleep Deprivation Digital Twin</div>
-        <p class="project-desc">A full-fidelity simulation of an astronaut that models fatigue, sleep deprivation, mission events, and physiological responses using probabilistic inputs, event-based simulation, and BioGears integration — predicting performance and health across extended missions.</p>
-        <div class="project-tech">
-          <span class="p-tag">BioGears</span><span class="p-tag">Python</span><span class="p-tag">Unity 3D</span><span class="p-tag">Monte Carlo</span><span class="p-tag">Digital Twin</span>
+        <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px;">
+          <span class="featured-badge">⭐ Featured</span>
+          <span style="display:inline-flex;align-items:center;gap:8px;font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);">
+            <span class="status-dot" style="width:6px;height:6px;"></span>Actively Building
+          </span>
         </div>
-        <a href="https://github.com/Ritesh90256/astronaut-fatigue-digital-twin" target="_blank" class="gh-link" style="margin-top:20px;">⌥ View on GitHub</a>
+        <div class="project-name">Vigil — AI Agent Observability Platform</div>
+        <p class="project-desc">An open-source observability platform for AI agents — captures every LLM call and tool use, then automatically classifies failures across 7 modes including hallucination, tool misuse, infinite loops, prompt injection, context overflow, intent drift, and retry storms. Built with a one-line SDK so teams can see <em>why</em> an agent failed, not just that it did.</p>
+        <div class="project-tech">
+          <span class="p-tag">Python</span><span class="p-tag">FastAPI</span><span class="p-tag">PostgreSQL</span><span class="p-tag">LLM-as-Judge</span><span class="p-tag">OpenAI / Anthropic API</span>
+        </div>
+        <a href="https://github.com/Ritesh90256/vigil" target="_blank" class="gh-link" style="margin-top:20px;">⌥ View on GitHub</a>
       </div>
     </div>
 
     <div class="project-card reveal">
       <div class="project-num">// 02</div>
+      <div class="project-name">Astronaut Fatigue & Sleep Deprivation Digital Twin</div>
+      <p class="project-desc">A full-fidelity simulation of an astronaut that models fatigue, sleep deprivation, mission events, and physiological responses using probabilistic inputs, event-based simulation, and BioGears integration — predicting performance and health across extended missions.</p>
+      <div class="project-tech">
+        <span class="p-tag">BioGears</span><span class="p-tag">Python</span><span class="p-tag">Unity 3D</span><span class="p-tag">Monte Carlo</span><span class="p-tag">Digital Twin</span>
+      </div>
+      <a href="https://github.com/Ritesh90256/astronaut-fatigue-digital-twin" target="_blank" class="gh-link">⌥ View on GitHub</a>
+    </div>
+
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-num">// 03</div>
       <div class="project-name">Multi-Robot Task Allocation & Collision Avoidance</div>
       <p class="project-desc">Built entirely from scratch in Python — implements CBBA for distributed task allocation, A* for path planning, and RVO2 for real-time collision avoidance across multiple autonomous robots.</p>
       <div class="project-tech"><span class="p-tag">CBBA</span><span class="p-tag">A*</span><span class="p-tag">RVO2</span><span class="p-tag">Python</span></div>
       <a href="https://github.com/Ritesh90256/multi-robot-task-allocation" target="_blank" class="gh-link">⌥ View on GitHub</a>
     </div>
 
-    <div class="project-card reveal reveal-delay-1">
-      <div class="project-num">// 03</div>
+    <div class="project-card reveal">
+      <div class="project-num">// 04</div>
       <div class="project-name">Pac-Man Deep Q-Learning Agent</div>
       <p class="project-desc">AI agent that masters Ms. Pac-Man using DQN with experience replay and target networks, trained end-to-end in PyTorch and Gymnasium.</p>
       <div class="project-tech"><span class="p-tag">PyTorch</span><span class="p-tag">DQN</span><span class="p-tag">Experience Replay</span><span class="p-tag">Gymnasium</span></div>
       <a href="https://github.com/Ritesh90256/pacman-deepq-learning" target="_blank" class="gh-link">⌥ View on GitHub</a>
     </div>
 
-    <div class="project-card reveal">
-      <div class="project-num">// 04</div>
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-num">// 05</div>
       <div class="project-name">KungFu A3C Agent</div>
       <p class="project-desc">Asynchronous Advantage Actor-Critic (A3C) with parallel environments and a shared network in PyTorch, trained on a custom KungFu game environment.</p>
       <div class="project-tech"><span class="p-tag">A3C</span><span class="p-tag">PyTorch</span><span class="p-tag">Parallel Envs</span><span class="p-tag">Shared Network</span></div>
       <a href="https://github.com/Ritesh90256/kungfu-a3c-agent" target="_blank" class="gh-link">⌥ View on GitHub</a>
     </div>
 
-    <div class="project-card reveal reveal-delay-1">
-      <div class="project-num">// 05</div>
+    <div class="project-card reveal">
+      <div class="project-num">// 06</div>
       <div class="project-name">Lunar Lander DQN Agent</div>
       <p class="project-desc">DQN agent trained to solve LunarLander-v3 in PyTorch on Google Colab, achieving consistent soft landings through reward shaping and target network stabilisation.</p>
       <div class="project-tech"><span class="p-tag">PyTorch</span><span class="p-tag">DQN</span><span class="p-tag">LunarLander-v3</span><span class="p-tag">Google Colab</span></div>
@@ -1062,7 +1079,12 @@
     <div class="achieve-card reveal reveal-delay-3">
       <div class="achieve-emoji">🎯</div>
       <div class="achieve-title">Self-Driven Builder</div>
-      <p class="achieve-desc">Built 5 substantive AI & robotics projects independently during undergraduate years, from digital twins to multi-robot systems, demonstrating rare depth and applied skill.</p>
+      <p class="achieve-desc">Built 6 substantive AI & robotics projects independently during undergraduate years, from digital twins to multi-robot systems, demonstrating rare depth and applied skill.</p>
+    </div>
+    <div class="achieve-card reveal reveal-delay-1">
+      <div class="achieve-emoji">🚀</div>
+      <div class="achieve-title">PESU Venture Labs — ABC 2026</div>
+      <p class="achieve-desc">Selected to build Vigil as part of PES University Venture Labs' Acceleration & Bootcamp Cohort (ABC) 2026 program.</p>
     </div>
     <div class="achieve-card reveal">
       <div class="achieve-emoji">🥋</div>
@@ -1211,7 +1233,7 @@ function countUp(el, target, suffix='') {
 const countObserver = new IntersectionObserver(entries => {
   entries.forEach(e => {
     if (e.isIntersecting) {
-      countUp(document.getElementById('proj-count'), 5);
+      countUp(document.getElementById('proj-count'), 6);
       countUp(document.getElementById('cert-count'), 0);
       countObserver.disconnect();
     }
